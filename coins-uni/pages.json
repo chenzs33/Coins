@@ -1,0 +1,154 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "金币时间",
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/summary/summary",
+			"style": {
+				"navigationBarTitleText": "周小结",
+				"navigationStyle": "custom" 
+			}
+		},
+		{
+			"path": "pages/discover/discover",
+			"style": {
+				"navigationBarTitleText": "社区",
+				"enablePullDownRefresh": true,
+				"backgroundTextStyle": "light"
+			
+			}
+		}, 
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}, 
+		{
+			"path": "pages/index/addEvent/addEvent",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, 
+		{
+			"path": "pages/index/chart/chart",
+			"style": {
+				"navigationBarTitleText": "统计"
+			}
+		}, 
+		{
+			"path": "pages/my/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/my/login/forget",
+			"style": {
+				"navigationBarTitleText": "忘记密码"
+			}
+		},
+		{
+			"path": "pages/my/login/register",
+			"style": {
+				"navigationBarTitleText": "注册账号"
+			}
+		},
+		{
+			"path": "pages/my/login/loginMethod",
+			"style": {
+				"navigationBarTitleText": "选择登录方式"
+			}
+		}
+	    ,{
+            "path" : "pages/more/more",
+            "style" : {
+				"navigationBarTitleText": "番茄Todo",
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTextStyle": "white"
+			}
+        }
+        ,{
+            "path" : "pages/my/coinExchange/coinExchange",
+            "style" : {
+				"navigationBarTitleText": "金币兑换"
+			}
+        }
+        ,{
+            "path" : "pages/discover/details/details",
+            "style" : {
+				"navigationBarTitleText": "详情"
+			}
+        }
+        ,{
+            "path" : "pages/discover/push/push",
+            "style" : {
+				"navigationBarTitleText": "发布"
+			}
+        }
+        ,{
+            "path" : "pages/my/feedback/feedback",
+            "style" : {
+				"navigationBarTitleText": "反馈"
+			}
+        }
+        ,{
+            "path" : "pages/my/myInfo/myInfo",
+            "style" : {
+				"navigationBarTitleText": "个人信息"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F0F0F0",
+		"backgroundColor": "#000"
+	},
+	"tabBar": {
+		"color": "#e6e6e6",
+		"selectedColor": "#000000",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/image/time.png",
+				"selectedIconPath": "static/image/time_click.png",
+				"text": "金币时间"
+			},
+			{
+				"pagePath": "pages/summary/summary",
+				"iconPath": "static/image/list.png",
+				"selectedIconPath": "static/image/list_click.png",
+				"text": "周小结"
+			},
+			{
+				"pagePath": "pages/more/more",
+				"iconPath": "static/image/task.png",
+				"selectedIconPath": "static/image/task_click.png",
+				"text": "番茄Todo"
+			},
+			{
+				"pagePath": "pages/discover/discover",
+				"iconPath": "static/image/discover.png",
+				"selectedIconPath": "static/image/discover_click.png",
+				"text": "社区"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/image/user.png",
+				"selectedIconPath": "static/image/user_click.png",
+				"text": "我的"
+			}
+		]
+	}
+}

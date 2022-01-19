@@ -1,0 +1,24 @@
+[{
+	"day": "20200401",
+	"data": [{
+			"time": 0,
+			"color": 1,
+			"content": "运动"
+		},
+		{
+			"time": 1,
+			"color": 2,
+			"content": "吃饭"
+		},
+		{
+			"time": 2,
+			"color": 0,
+			"content": "-"
+		},
+		{
+			"time": 3,
+			"color": 3,
+			"content": "娱乐"
+		}
+	]
+}]
